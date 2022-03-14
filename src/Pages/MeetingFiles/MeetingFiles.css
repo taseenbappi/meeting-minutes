@@ -1,0 +1,156 @@
+.forms-container{
+    /* display: flex; */
+    
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.client-name{
+     font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#next{
+    background-color:#1565D8;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.meeting-text{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+}
+.text-area{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #000000;
+    border: none;
+
+}
+.button-design-seven{
+    border-radius:30px;
+    border:none;
+    background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+}
+.button-design-seven:hover{
+     background-color: gray;
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+}
+.button-design-one{
+    border-radius:30px;
+    border:none;
+    background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+    /* transition: ; */
+}
+.button-design-one:hover{
+    background-color: gray;
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+
+}
+.button-design-two{
+    border-radius:30px;
+    border:none;
+    background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+    /* transition: ; */
+}
+.button-design-two:hover{
+    background-color: gray;
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+
+}
+.button-design-three{
+    border-radius:15px;
+    border:none;
+    background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+    /* transition: ; */
+}
+.button-design-three:hover{
+    background-color: gray;
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+
+}
+.button-design-four{
+    border-radius:30px;
+    border:none;
+   background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+    /* transition: ; */
+}
+.button-design-four:hover{
+    
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+
+}
+.button-design-five{
+    border-radius:8px;
+    font-weight: 300;
+    font-size: 14px;
+    border:none;
+    background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+     text-align: center;
+    /* transition: ; */
+}
+.button-design-five:hover{
+  
+   background: linear-gradient(180deg, #544F51 0%, rgba(84, 79, 81, 0.16) 100%);
+    cursor: pointer;
+   
+
+}
+.button-design-six{
+    border-radius:30px;
+    border:none;
+    background-color: black;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+    /* transition: ; */
+}
+.button-design-six:hover{
+    
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+
+}
+input[type="file"]{
+    /* visibility: hidden; */
+    color:white;
+    /* background-color: #000000; */
+    
+}
+
+
+.button-text{
+    font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+}
+
+.third-form input[type="file"]{
+    display: none;
+}
+.custom-upload{
+    border:1px solid red;
+    color:blue;
+    background-color: aquamarine;
+}

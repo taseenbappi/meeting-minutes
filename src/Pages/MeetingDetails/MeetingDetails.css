@@ -1,0 +1,53 @@
+.client-name{
+    font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   background-color: #111215;
+}
+.editors-background{
+   background-color: white;
+    font-family: 'Poppins', sans-serif;
+ 
+   
+   width:100%;
+  
+  
+   border-radius: 8px;
+   height: 56px;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   border: none;
+}
+.editor-background{
+   background-color: white;
+}
+/* form input{
+   width:100%;
+   color:white;
+   background-color: #000000;
+   border-radius: 8px;
+   height: 56px;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   border: none;
+
+} */
+
+.meeting-text{
+   color:rgb(255, 247, 247);
+   font-family: 'Poppins', sans-serif;
+   font-size: 1rem;
+}
+.text-area{
+   color:white;
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   background-color: #000000;
+   border: none;
+
+}

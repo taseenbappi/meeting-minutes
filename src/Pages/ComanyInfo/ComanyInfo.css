@@ -1,0 +1,27 @@
+.meetings-information{
+    width: 100%;
+    color:white;
+    background-color: #000000;
+    border-radius: 8px;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    border: none;
+    /* border:2px solid rgb(14, 14, 46); */
+    
+}
+
+.submit-btn{
+    /* border-radius:15px; */
+    border:none;
+    background-color:#1565D8;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    transition: all .5s linear;
+}
+.submit-btn:hover{
+    background-image: linear-gradient(rgb(10, 10, 56),black);
+    color: rgb(255, 238, 0);
+}
