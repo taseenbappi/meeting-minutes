@@ -21,7 +21,7 @@ const ComanyInfo = ({ meetingData, setMeetingData }) => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
+                // console.log(data);
                 alert(data?.msg);
                 reset();
             })
@@ -29,7 +29,7 @@ const ComanyInfo = ({ meetingData, setMeetingData }) => {
 
 
     };
-    console.log(meetingData)
+    // console.log(meetingData)
 
     return (
         <div className='container  mt-5'>

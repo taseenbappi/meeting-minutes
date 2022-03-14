@@ -32,13 +32,13 @@ const MeetingDetails = ({ meetingData, setMeetingData, projectName, setProjectNa
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
+                // console.log(data);
                 alert(data?.msg);
                 reset();
             })
             .catch((error) => console.error("Error -> ", error));
     }
-    console.log(meetingData)
+    // console.log(meetingData)
 
     return (
         <div className='container mt-5 '>
@@ -142,6 +142,8 @@ const MeetingDetails = ({ meetingData, setMeetingData, projectName, setProjectNa
                             <textarea className=' ps-2 editors-background' {...register("meeting_outcomes")}
                                 name="meeting_outcomes"
                                 placeholder="Meeting Outcomes"
+                                rows="3"
+                                cols="50"
                                 value={meetingData.meeting_outcomes}
                                 onChange={(e) => {
                                     setMeetingData({ ...meetingData, meeting_outcomes: e.target.value })

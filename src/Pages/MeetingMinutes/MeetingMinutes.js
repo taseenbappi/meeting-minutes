@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import ComanyInfo from '../ComanyInfo/ComanyInfo';
 import LetterHead from '../LetterHead/LetterHead';
+import TechsistLetterHead from '../LetterHead/TechsistLetterHead';
 import MeetingDetails from '../MeetingDetails/MeetingDetails';
 import MeetingFiles from '../MeetingFiles/MeetingFiles';
 import './MeetingMinutes.css';
@@ -40,19 +41,6 @@ const MeetingMinutes = () => {
     });
 
 
-    // console.log(meetingData);
-
-    const submitHandler = () => {
-
-
-        axios.post('https://digitalbackend.techsistltd.com/meeting_minute/', meetingData)
-            .then(function (response) {
-                console.log(response);
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
-    }
 
     const PageDisplay = () => {
 
@@ -78,7 +66,8 @@ const MeetingMinutes = () => {
         }
         else if (page === 2) {
 
-            return <LetterHead setMeetingData={setMeetingData} meetingData={meetingData}></LetterHead>
+            // return <LetterHead setMeetingData={setMeetingData} meetingData={meetingData}></LetterHead>
+            return <TechsistLetterHead setMeetingData={setMeetingData} meetingData={meetingData}></TechsistLetterHead>
         }
         else if (page === 3) {
             return <MeetingFiles setMeetingData={setMeetingData} meetingData={meetingData}></MeetingFiles>

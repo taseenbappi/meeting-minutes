@@ -5,7 +5,7 @@ import img from '../../images/meeting-vector-img.png'
 
 const MeetingFiles = ({ meetingData, setMeetingData, projectName, setProjectName, meetingPartcipants, setMeetingPartcipants, meetingDiscussion, setMeetingDiscussion, meetingOutcomes }) => {
 
-    console.log(meetingData);
+    // console.log(meetingData);
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         const formData = new FormData();
@@ -26,12 +26,12 @@ const MeetingFiles = ({ meetingData, setMeetingData, projectName, setProjectName
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
+                // console.log(data);
                 alert(data?.msg);
                 reset();
             })
             .catch((error) => console.error("Error -> ", error));
-        console.log(data)
+        // console.log(data)
 
     };
     return (
